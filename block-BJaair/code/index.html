@@ -7,15 +7,39 @@
     <title>notice board</title>
 </head>
 <body>
-    <form>
-        <input type="text" name="title">
-        <input type="text" name="category">
-        <button>Add new item</button>
-    </form>
+    <header>
+        Use Cards
+    </header>
+    <ul>
+        <li>
+            <p>Daily Needs</p>
+            <h2>Get bread from next shop</h2>
+        </li>
+        <li>
+            <p>Daily Needs</p>
+            <h2>Get bread from next shop</h2>
+        </li>
+    </ul>
+    <div class="add_card">
+        <form>
+            <input name="title" type="text" placeholder="Enter the title"/>
+            <input name="category" type="text" placeholder="Category"/>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 
     
   <script>
-      let root = document.querySelector('form');
+      let form = document.querySelector('form');
+      let ul = documnet.querySelector('ul');
+      let cardsD
+
+
+
+      form.addEventListener('submit',(event) => {
+          e.preventdefault();
+          let title = event.target.elements.title.value;
+      })
 
       class 
   </script>  
