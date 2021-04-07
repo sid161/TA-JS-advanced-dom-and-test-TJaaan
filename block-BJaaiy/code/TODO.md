@@ -1,8 +1,11 @@
 ## Using node and NPM
 
 - Create a folder and initialize it with NPM
+npm init:
 - Add a package named `parcel-bundler`
+npm i `parcel-bundler`
 - Create a live server
+npm install -g live-server
 - Use the `moment` library (https://momentjs.com/)
 - Also use the `lodash` library
 
@@ -17,8 +20,11 @@
 Print Date or Time in the following format:
 
 - `February 12th 2021, 12:54:12 pm`
+moment().format('mmmm do yyyy, h:mm:ss a')
 - `Friday`
+moment().format('dddd');
 - `Feb 12th 21`
+moment().format("mmmm do yy");
 
 Check if the following date is valid or not:
 
