@@ -2,7 +2,7 @@ function getFullName(firsrName,lastName){
     let fullName = `${firstName} ${lastName}`;
     return fullName;
 }
-
+getFullName();
 function palindrome(str) {
 
     const len = string.length;
@@ -15,8 +15,10 @@ function palindrome(str) {
     }
     return 'false';
 }
+palindrome();
 
 function getCircumfrence(radius){
     let circumference = 2*3.14*(radius);
     return circumference;
 }
+getCircumfrence();
