@@ -1,20 +1,30 @@
-function add() {}
+function add(a,b) {
+  return a + b;
+}
 
-function subtract() {}
+function subtract(a,b) {
+  return a - b;
+}
 
-function sum() {}
+function sum(a,b) {
+  return a + b;
+}
 
-function multiply() {}
+function multiply(a,b) {
+  return a * b;
+}
 
-function power() {}
+function divide(a,b) {
+  return a / b;
+}
 
-function factorial() {}
+function modulo(a,b) {
+  return a % b;
+}
 
-module.exports = {
-  add,
-  subtract,
-  sum,
-  multiply,
-  power,
-  factorial,
-};
+module.exports.add = add;
+module.exports.subtract = subtract;
+module.exports.sum = sum;
+module.exports.multiply = multiply;
+module.exports.divide = divide;
+module.exports.modulo = modulo;
