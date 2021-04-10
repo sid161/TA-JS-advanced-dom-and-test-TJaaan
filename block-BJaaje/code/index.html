@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Assessment: Drag and Drop Game</title>
+    <script src="https://kit.fontawesome.com/7fa3d6c3a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/v5.9.0/all.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <section class="draggable-elements">
+      <i class="fab fa-app-store-ios" draggable = "true" style="color: #ff6384;" id="app-store"></i>
+      <i class="fab fa-blogger" draggable="true" id="blogger"></i>
+      <i class="fab fa-drupal" draggable="true" id = "drupal"></i>
+      <i class="fab fa-js" draggable="true" id="js"></i>
+      <i class="fab fa-github" draggable="true" id = "github"></i>
+    </section>
+    <section class="droppable-elements">
+      <div class="droppable" data-draggable-id="drupal"><span>Drupal</span></div>
+      <div class="droppable" data-draggable-id="js"><span>JavaScript</span></div>
+      <div class="droppable" data-draggable-id="app-store"><span>AppStore</span></div>
+      <div class="droppable" data-draggable-id="github"><span>Github</span></div>
+      <div class="droppable" data-draggable-id="blogger"><span>Blogger</span></div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
